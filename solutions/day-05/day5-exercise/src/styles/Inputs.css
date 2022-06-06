@@ -1,0 +1,26 @@
+/* INPUTS */
+.container-input{
+  height: 250px;
+  width: 1000px;
+  background-color: aquamarine;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px ;
+}
+
+.input{
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 10px;
+}
+
+.button{
+  padding: 15px 140px;
+  border-radius: 10px;
+  background-color: red;
+  border: 0;
+  margin: 20px 0px;
+}
