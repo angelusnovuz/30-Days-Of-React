@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.text{
+  color:black;
+  
+}
+
+.colors{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 400px;
+  width: 800px;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 20px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+}
